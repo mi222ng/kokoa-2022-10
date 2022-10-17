@@ -1,5 +1,5 @@
 .user-component,
-.user-component__colums:first-child {
+.user-component__colums {
   display: flex;
   align-items: center;
 }
