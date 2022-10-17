@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
 }
+.user-component__colums:first-child {
+  display: block;
+}
 .user-component {
   justify-content: space-between;
   margin-bottom: 15px;
