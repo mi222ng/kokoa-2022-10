@@ -1,0 +1,52 @@
+.user-component,
+.user-component__colums:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.user-component__name {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__talk {
+  margin-top: 5px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__colums:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+.user-component__number {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.user-component__number i {
+  position: absolute;
+  top: 6px;
+  right: -15px;
+}
+.user-component__talk {
+  margin-right: 5px;
+}

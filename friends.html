@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - KoKoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__colums">
+          <img
+            src="https://static.wikia.nocookie.net/disney/images/5/56/Profile_-_Rex.jpeg/revision/latest?cb=20190313050619"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Rex</h4>
+            <!-- <h6 class="user-component__talk">blablablabla</h6> -->
+          </div>
+        </div>
+        <div class="user-component__colums"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__colums">
+            <div
+              class="user-component__avatar user-component__avatar--sm user-component__channel"
+            >
+              <span>Ch</span>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name--not-bold">
+                channel
+              </h4>
+              <!-- <h6 class="user-component__talk">blablablabla</h6> -->
+            </div>
+          </div>
+          <div class="user-component__colums">
+            <div>
+              <span>2</span>
+              <i class="fa-solid fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__friends">
+        <div class="friends-screen__friends-header">
+          <span>Friends</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__colums">
+            <img
+              src="https://yt3.ggpht.com/Db1MasghwoY-pcQIqrJ0f3tX2e7WQ8nuwdyhd1W6zw4zHDFuVyrFA_MgOWxhYfuWS8Byue_y=s900-c-k-c0x00ffffff-no-rj"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name--not-bold">
+                서준
+              </h4>
+              <!-- <h6 class="user-component__talk">blablablabla</h6> -->
+            </div>
+          </div>
+          <div class="user-component__colums"></div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__colums">
+            <img
+              src="https://file.mk.co.kr/meet/neds/2021/09/image_readtop_2021_873393_16311971144780320.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name user-component__name--not-bold">
+                윤하
+              </h4>
+              <!-- <h6 class="user-component__talk">blablablabla</h6> -->
+            </div>
+          </div>
+          <div class="user-component__colums"></div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="main__new nav__new"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ad43508a39.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
