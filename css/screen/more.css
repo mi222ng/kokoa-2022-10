@@ -2,6 +2,8 @@
   margin-top: 35px;
 }
 .more-suggestions {
+  display: flex;
+  flex-direction: column;
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
@@ -14,11 +16,11 @@
   justify-content: space-between;
 }
 .more-suggestion__icon {
-  margin: 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: space-between;
 }
 .more-suggestions__icon-image {
   width: 60px;
@@ -28,7 +30,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   margin: 0 20px 10px;
+=======
+  margin: 0px 20px 10px;
+>>>>>>> bc04c88dd874c0d917c587fc18bbacae9a6d9e29
 }
 .more-suggestions__icon-image i {
   font-size: 30px;
