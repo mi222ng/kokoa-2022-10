@@ -30,11 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  margin: 0 20px 10px;
-=======
   margin: 0px 20px 10px;
->>>>>>> bc04c88dd874c0d917c587fc18bbacae9a6d9e29
 }
 .more-suggestions__icon-image i {
   font-size: 30px;
